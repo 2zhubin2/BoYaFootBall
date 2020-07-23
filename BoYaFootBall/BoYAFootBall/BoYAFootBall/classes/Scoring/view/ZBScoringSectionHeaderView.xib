@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="RB7-iQ-MfH" customClass="ZBScoringSectionHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="478" height="88"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="320-TA-ap0">
+                    <rect key="frame" x="20" y="44" width="181" height="0.5"/>
+                    <color key="backgroundColor" red="0.10588235294117647" green="0.3529411764705882" blue="0.5607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="adn-LK-rmP"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="历史纪录" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jZp-UT-uCn">
+                    <rect key="frame" x="211" y="35" width="56" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="56" id="89k-k8-uXN"/>
+                        <constraint firstAttribute="height" constant="18" id="Wfo-nR-XZm"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.12549019607843137" green="0.38823529411764707" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cBP-Lw-gBa">
+                    <rect key="frame" x="277" y="44" width="181" height="0.5"/>
+                    <color key="backgroundColor" red="0.1058823529" green="0.35294117650000001" blue="0.56078431370000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="l0x-Ao-nuT"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="cBP-Lw-gBa" firstAttribute="centerY" secondItem="jZp-UT-uCn" secondAttribute="centerY" id="3V3-0L-jk4"/>
+                <constraint firstAttribute="trailing" secondItem="cBP-Lw-gBa" secondAttribute="trailing" constant="20" id="55Z-zA-0IG"/>
+                <constraint firstItem="320-TA-ap0" firstAttribute="leading" secondItem="RB7-iQ-MfH" secondAttribute="leading" constant="20" id="XCu-W0-2jM"/>
+                <constraint firstItem="320-TA-ap0" firstAttribute="centerY" secondItem="jZp-UT-uCn" secondAttribute="centerY" id="ZUR-eE-pIL"/>
+                <constraint firstItem="cBP-Lw-gBa" firstAttribute="leading" secondItem="jZp-UT-uCn" secondAttribute="trailing" constant="10" id="cZK-ww-hgG"/>
+                <constraint firstItem="jZp-UT-uCn" firstAttribute="centerY" secondItem="RB7-iQ-MfH" secondAttribute="centerY" id="hOm-hP-nDS"/>
+                <constraint firstItem="jZp-UT-uCn" firstAttribute="centerX" secondItem="RB7-iQ-MfH" secondAttribute="centerX" id="iYs-Vx-kOU"/>
+                <constraint firstItem="jZp-UT-uCn" firstAttribute="leading" secondItem="320-TA-ap0" secondAttribute="trailing" constant="10" id="pIW-KS-fdz"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="3hu-rA-tZl"/>
+            <point key="canvasLocation" x="197.10144927536234" y="-62.946428571428569"/>
+        </view>
+    </objects>
+</document>

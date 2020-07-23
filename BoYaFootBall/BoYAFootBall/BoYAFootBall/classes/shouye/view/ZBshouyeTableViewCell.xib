@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="shouyeTableViewCell" rowHeight="254" id="KGk-i7-Jjw" customClass="ZBshouyeTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="254"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="254"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="图层 1939" translatesAutoresizingMaskIntoConstraints="NO" id="pSD-tT-Ksh">
+                        <rect key="frame" x="10" y="10" width="300" height="140"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="140" id="hkN-tq-N4U"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="世纪足球学院" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B78-OQ-TYY">
+                        <rect key="frame" x="10" y="170" width="200" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="200" id="BQg-jg-qBo"/>
+                            <constraint firstAttribute="height" constant="16" id="OW2-4P-42b"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="世纪城东路9号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jv3-ts-TfM">
+                        <rect key="frame" x="10" y="206" width="200" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="7Bh-7j-FUh"/>
+                            <constraint firstAttribute="width" constant="200" id="fqQ-Bn-MXH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.59607843137254901" green="0.59607843137254901" blue="0.59607843137254901" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBs-Gh-CfF">
+                        <rect key="frame" x="250" y="201.5" width="60" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="r6R-EX-wqc"/>
+                            <constraint firstAttribute="height" constant="24" id="tTR-Fa-HGf"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="组 4-reserve"/>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="jv3-ts-TfM" firstAttribute="top" secondItem="B78-OQ-TYY" secondAttribute="bottom" constant="20" id="65P-T7-PT4"/>
+                    <constraint firstAttribute="trailing" secondItem="pSD-tT-Ksh" secondAttribute="trailing" constant="10" id="A0f-AA-zQL"/>
+                    <constraint firstItem="pSD-tT-Ksh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="GGQ-Sa-Z7D"/>
+                    <constraint firstItem="SBs-Gh-CfF" firstAttribute="centerY" secondItem="jv3-ts-TfM" secondAttribute="centerY" id="WRy-Lm-K3i"/>
+                    <constraint firstAttribute="trailing" secondItem="SBs-Gh-CfF" secondAttribute="trailing" constant="10" id="XdI-hM-iJ8"/>
+                    <constraint firstItem="B78-OQ-TYY" firstAttribute="top" secondItem="pSD-tT-Ksh" secondAttribute="bottom" constant="20" id="YtO-WS-hgP"/>
+                    <constraint firstItem="jv3-ts-TfM" firstAttribute="leading" secondItem="B78-OQ-TYY" secondAttribute="leading" id="adI-IK-kzU"/>
+                    <constraint firstItem="B78-OQ-TYY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="bBe-5I-E6f"/>
+                    <constraint firstItem="pSD-tT-Ksh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="e6s-ol-uhl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="image_view" destination="pSD-tT-Ksh" id="tSx-wb-9M0"/>
+                <outlet property="label_one" destination="B78-OQ-TYY" id="Cj5-Vp-6Wx"/>
+                <outlet property="label_two" destination="jv3-ts-TfM" id="6CA-vN-6fn"/>
+                <outlet property="reserve_btn" destination="SBs-Gh-CfF" id="hR5-cz-tww"/>
+            </connections>
+            <point key="canvasLocation" x="463.768115942029" y="1.3392857142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="图层 1939" width="350" height="140"/>
+        <image name="组 4-reserve" width="60" height="24"/>
+    </resources>
+</document>
